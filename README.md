@@ -53,4 +53,6 @@ Frame rate(fps) | 1847 | 1720 | 1563 | 1476
 CPU memory(M) | 40 | 40 | 40 | 41
 GPU memory(M) | 29 | 30 | 30 | 31
 
+[Reference]: Asirvatham A, Hoppe H. Terrian rendering using GPU-based geometry clipmaps[J]. Gpu Gems, 2005.
+
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
