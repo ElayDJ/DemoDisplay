@@ -2,7 +2,6 @@
 The main contribution of this project is to propose a new illumination algorithm, which can quickly achieve the illumination for large number of point light sources based on physics.
 
 For the Dragon model, when there are 100 point light sources in the scene, using our algorithm and using GGX BRDF, the results are as follows:
-<div align="center">
 <table>
     <tr>
       <td ><center><img src="https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/Our_alpha_0_25.png"  >(a) Our,α=0.25</center></td>
@@ -21,8 +20,7 @@ For the Dragon model, when there are 100 point light sources in the scene, using
         <td ><center><img src="https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/BRDF_alpha_1_0.png"  >(h)GGX BRDF,α=1.0</td>
     </tr>
 </table>
-</div>
 
-  <center>
-  are
-  </center>
+For the Sponza  model, when there are 100 point light sources in the scene, using our algorithm and using GGX BRDF, the results are as follows:
+![Our result](https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/OurResult_MS_16.jpg)
+![GGX BRDF Result](https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/BRDFResult_MS_16.jpg)
