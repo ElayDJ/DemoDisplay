@@ -1,4 +1,4 @@
-# Real-time illumination for large number of point light sources based on physics
+# Real-time Illumination for Large Number of Point Light Sources Based on Physics
 The main contribution of this project is to propose a new illumination algorithm, which can quickly achieve the illumination for large number of point light sources based on physics.
 
 For the Dragon model, when there are 100 point light sources in the scene, using our algorithm and using GGX BRDF, the results are as follows:
@@ -32,9 +32,18 @@ For the Sponza  model, when there are 100 point light sources in the scene, usin
 
 And for Sponza model, when rendering different numbers of light sources, the frame rates of BRDF and our algorithm are shown in the table below.
 
- 1  | 100 lights| 500 lights | 1000 lights | 5000 lights
+   | 100 lights| 500 lights | 1000 lights | 5000 lights
 :- | :-: | :-: | :-: | :-:
 fps of GGX BRDF(fps) | 118 | 23 | 12 | 2
 fps of our algorithm(fps) | 285 | 56 | 28 | 5
 saved rendering time(ms) | 4.97 | 25.62 | 47.62 | 255.49
 
+[Reference]: This paper is in the process of publication.
+
+# Ocean Simulation Based on Geometry Clipmap
+The main contribution of this project is to propose to apply the Geometry Clipmap technique used in terrian rendering to large-scale ocean rendering. And some adjustments and improvements are made to fit dynamic ocean scene better. The rendering results are shown below.
+![]()
+The corresponding ocean grid is shown below.
+![]()
+
+# Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
