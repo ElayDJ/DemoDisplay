@@ -42,8 +42,15 @@ saved rendering time(ms) | 4.97 | 25.62 | 47.62 | 255.49
 
 # Ocean Simulation Based on Geometry Clipmap
 The main contribution of this project is to propose to apply the Geometry Clipmap technique used in terrian rendering to large-scale ocean rendering. And some adjustments and improvements are made to fit dynamic ocean scene better. The rendering results are shown below.
-![]()
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/OceanResult/Ocean.png)
 The corresponding ocean grid is shown below.
-![]()
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/OceanResult/Mesh.png)
+When the number of grid LOD layers changes, the corresponding rendering frame rate and memory consumption are shown in the following table.
+
+   | 100 lights| 500 lights | 1000 lights | 5000 lights
+:- | :-: | :-: | :-: | :-:
+fps of GGX BRDF(fps) | 118 | 23 | 12 | 2
+fps of our algorithm(fps) | 285 | 56 | 28 | 5
+saved rendering time(ms) | 4.97 | 25.62 | 47.62 | 255.49
 
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
