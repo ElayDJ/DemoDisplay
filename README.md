@@ -23,4 +23,11 @@ For the Dragon model, when there are 100 point light sources in the scene, using
 
 For the Sponza  model, when there are 100 point light sources in the scene, using our algorithm and using GGX BRDF, the results are as follows:
 ![Our result](https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/OurResult_MS_16.jpg)
+
+(a)Our result for sponza
+
 ![GGX BRDF Result](https://github.com/ElayDJ/DemoDisplay/blob/master/PlentyLightResult/BRDFResult_MS_16.jpg)
+
+(b)GGX BRDF result for sponza
+
+
