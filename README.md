@@ -30,4 +30,11 @@ For the Sponza  model, when there are 100 point light sources in the scene, usin
 
 (b)GGX BRDF result for sponza
 
+And for Sponza model, when rendering different numbers of light sources, the frame rates of BRDF and our algorithm are shown in the table below.
+
+ 1  | 100 lights| 500 lights | 1000 lights | 5000 lights
+:- | :-: | :-: | :-: | :-:
+fps of GGX BRDF(fps) | 118 | 23 | 12 | 2
+fps of our algorithm(fps) | 285 | 56 | 28 | 5
+saved rendering time(ms) | 4.97 | 25.62 | 47.62 | 255.49
 
