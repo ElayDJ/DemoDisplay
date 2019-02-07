@@ -32,7 +32,7 @@ For the Sponza  model, when there are 100 point light sources in the scene, usin
 
 And for Sponza model, when rendering different numbers of light sources, the frame rates of BRDF and our algorithm are shown in the table below.
 
-   | 100 lights| 500 lights | 1000 lights | 5000 lights
+\  | 100 lights| 500 lights | 1000 lights | 5000 lights
 :- | :-: | :-: | :-: | :-:
 fps of GGX BRDF(fps) | 118 | 23 | 12 | 2
 fps of our algorithm(fps) | 285 | 56 | 28 | 5
@@ -47,10 +47,10 @@ The corresponding ocean grid is shown below.
 ![](https://github.com/ElayDJ/DemoDisplay/blob/master/OceanResult/Mesh.png)
 When the number of grid LOD layers changes, the corresponding rendering frame rate and memory consumption are shown in the following table.
 
-   | 100 lights| 500 lights | 1000 lights | 5000 lights
+Number of lod layers   | 2 | 5 | 7 | 10
 :- | :-: | :-: | :-: | :-:
-fps of GGX BRDF(fps) | 118 | 23 | 12 | 2
-fps of our algorithm(fps) | 285 | 56 | 28 | 5
-saved rendering time(ms) | 4.97 | 25.62 | 47.62 | 255.49
+Frame rate(fps) | 1847 | 1720 | 1563 | 1476
+CPU memory(M) | 40 | 40 | 40 | 41
+GPU memory(M) | 29 | 30 | 30 | 31
 
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
