@@ -55,4 +55,9 @@ GPU memory(M) | 29 | 30 | 30 | 31
 
 [Reference]: Asirvatham A, Hoppe H. Terrian rendering using GPU-based geometry clipmaps[J]. Gpu Gems, 2005.
 
+# Tiled Forward Shading
+The main work of this project is to use screen space partitioning to eliminate light sources and achieve a large number of point light sources rendering based on Phong model. And I design and implement three rendering frameworks: forward shading, deffered shading and tiled shading. The final tiled shading results are shown below.
+![]()
+
+
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
