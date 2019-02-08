@@ -57,7 +57,8 @@ GPU memory(M) | 29 | 30 | 30 | 31
 
 # Tiled Forward Shading
 The main work of this project is to use screen space partitioning to eliminate light sources and achieve a large number of point light sources rendering based on Phong model. And I design and implement three rendering frameworks: forward shading, deffered shading and tiled shading. The final tiled shading results are shown below.
-![]()
-
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/TiledShadingResult/TileShading.png)
+At the same light source density, the frame rates of forward shading, deferred shading and tiled forward shading are compared as follows.
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/TiledShadingResult/FrameRateCompare1.png)
 
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
