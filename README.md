@@ -77,7 +77,7 @@ The main work of this project is: inspired by the idea of polygon light source, 
 ![]()
 
 # Particle Effects Using Compute Shader
-The main work of this project is to use compute shaders and imge buffers to achieve dynamic movement, generation and destruction of particle effects. The rendering results are shown below. The number of particles is about ten million.
+The main work of this project is to use compute shaders and imge buffers to achieve dynamic movement, generation and destruction of particle effects. The rendering results are shown below. The number of particles is about **ten million**.
 ![](https://github.com/ElayDJ/DemoDisplay/blob/master/ParticleResults/Particle.png)
 ![](https://github.com/ElayDJ/DemoDisplay/blob/master/ParticleResults/Particle3.png)
 
