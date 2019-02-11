@@ -65,12 +65,13 @@ At the same light source density, the frame rates of forward shading, deferred s
 
 # Forward Light Cut
 The main work of this project is to simulate secondary reflection by generating a large number of virtual point light sources on the triangular surface of the model. The rendering results are shown below.
-![]()
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/FLCResult/FLCCornelBoxResult.png)
 The corresponding rendering frame rate is 284 fps.
 
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
 The main work of this project is to approximate the BDRF integral of the polygonal light source by cosine integral of the polygon on the sphere. The rendering results are shown below.
-![]()
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/PolygonalLightResult/UniformPolygonalLightResult.png)
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/PolygonalLightResult/TexturedPolygonalLightResult.png)
 
 # Dynamic Image Based Lighting
 The main work of this project is: inspired by the idea of polygon light source, filter light source texture dynamically to approximate the illumination effect of dynamic scenes on objects. The rendering results are shown below.
