@@ -81,3 +81,7 @@ The main work of this project is: inspired by the idea of polygon light source, 
 The main work of this project is to use compute shaders and imge buffers to achieve dynamic movement, generation and destruction of particle effects. The rendering results are shown below. The number of particles is about **10 million**. The corresponding rendering frame rate is 12 fps.
 ![](https://github.com/ElayDJ/DemoDisplay/blob/master/ParticleResults/Particle.png)
 ![](https://github.com/ElayDJ/DemoDisplay/blob/master/ParticleResults/Particle3.png)
+
+# MiniGame Demo(GAD, Tencent)
+This is a 3D cool run mini game, similar to temple run. Game screenshots are as follows.
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/GADDemo/MiniGame2.png)
