@@ -65,7 +65,8 @@ At the same light source density, the frame rates of forward shading, deferred s
 
 # Forward Light Cut
 The main work of this project is to simulate secondary reflection by generating a large number of virtual point light sources on the triangular surface of the model. The rendering results are shown below.
-![](https://github.com/ElayDJ/DemoDisplay/blob/master/FLCResult/FLCCornelBoxResult.png)
+![](https://github.com/ElayDJ/DemoDisplay/blob/master/FLCResult/FLCSponzaResult.png)
+
 The corresponding rendering frame rate is 284 fps.
 
 # Real-Time Polygonal-Light Shading with Linearly Transformed Cosines 
